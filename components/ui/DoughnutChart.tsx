@@ -26,8 +26,6 @@ const DoughnutChart = ({ accounts }: DoughnutChartProps) => {
         data={data} 
         options={{
             cutout: "60%",
-            // responsive: true,
-            // maintainAspectRatio: false,
             plugins: {
                 legend: {
                     display: false,
